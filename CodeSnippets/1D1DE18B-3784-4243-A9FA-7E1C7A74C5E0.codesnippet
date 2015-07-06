@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xp send to viewcontroller</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if ([self.delegate respondsToSelector:@selector(sendDataToViewController:)]) {
+    [self.delegate sendDataToViewController:@{gDSKeyViewParamViewTag:[NSNumber numberWithInteger:self.tag],
+                                              gDSKeyViewParamValue:&lt;#data#&gt;}];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1D1DE18B-3784-4243-A9FA-7E1C7A74C5E0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Send to viewController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
